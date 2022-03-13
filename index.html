@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/about2.css">
+    <link rel="stylesheet" href="css/steps.css">
+    <style>
+        body{
+            background: url('./image/bg3.jpg');
+        }
+        .page {
+        width: 100%;
+        background:url("./image/bg3.jpg") no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        
+    }
+    </style>
+    <title>大事记</title>
+</head>
+<body>
+    <div class="head">
+        <h1>改革开放40多年来经济大事记</h1>
+        <div class="weather">
+            <span id="showTime"></span>
+        </div>
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000);//開始运行
+            function time() {
+                clearTimeout(t);//清除定时器
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours();//获取时
+                var m = dt.getMinutes();//获取分
+                var s = dt.getSeconds();//获取秒
+                document.getElementById("showTime").innerHTML = y + "年" + mt + "月" + day + "日" + "-" + h + "时" + m + "分" + s + "秒";
+                t = setTimeout(time, 1000); //设定定时器，循环运行
+            }
+        </script>
+    </div>
+    <div class="page">
+        <div class="nav">
+            <ul class="event-year">
+                <li class="current"><label for="1">1978-1980</label></li>
+                <li><label for="2">1981-1990</label></li>
+                <li><label for="3">1991-2000</label></li>
+                <li><label for="4">2001-2010</label></li>
+                <li><label for="5">2011-2020</label></li>
+            </ul>
+        </div>
+        <div class="timeline">
+            <div class="time time1">
+                <h3 id="1">1978-1980</h3>
+                <div class="timeline-small">
+                    <div class="timeline-small-body">
+                        <ul>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/subject/gg/1978/dsj/200811/24/t20081124_17480770.shtml">1978</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/1978/dsj/200811/24/t20081124_17480770.shtml">12月18日—22日 中共十一届三中全会举行。作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策，开启了我国改革开放和社会主义现代化建设历史新时期</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/subject/gg/1979/dsj/200811/27/t20081127_17519438_1.shtml">1979</a></div>
+                                <div class="bullet blue animate__backInRight"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/1979/dsj/200811/27/t20081127_17519438_1.shtml">提出从自己国家实际出发，走出一条在社会主义制度下实现现代化的中国式道路。中央会议通过了八字方针和调整后的1979年国民经济计划。</a></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="time">
+                <h3 id="2">1981-1990</h3>
+                <div class="timeline-small">
+                    <div class="timeline-small-body">
+                        <ul>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/subject/gg/200811/25/t20081125_17493273.shtml" >1980</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/200811/25/t20081125_17493273.shtml">9月2日 国务院批转国家经委《关于扩大企业自主权试点工作情况和今后意见的报告》，要求从1981年起把扩大企业自主权的工作在国营工业企业中全面推开。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/subject/gg/1981/dsj/200812/04/t20081204_17580627.shtml">1981</a></div>
+                                <div class="bullet blue"></div>
+                                <div data-aos="fade-left" class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/1981/dsj/200812/04/t20081204_17580627.shtml">10月17日 中共中央、国务院作出《关于广开门路，搞活经济，解决城镇就业问题的若干决定》。指出，在社会主义公有制经济占优势的根本前提下，实行多种经济形式和多种经营方式长期并存，是我党的一项战略决策。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.ce.cn/xwzx/gnsz/szyw/201105/09/t20110509_22408799.shtml">1982</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.ce.cn/xwzx/gnsz/szyw/201105/09/t20110509_22408799.shtml">1月2日 中共中央、国务院作出《关于国营工业企业进行全面整顿的决定》。指出，要使企业的经济利益与企业生产经营成果好坏直接联系，把责、权、利三者统一起来。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/7/200812/11/t20081211_17648084.shtml">1983</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/7/200812/11/t20081211_17648084.shtml">中央银行体制建立,金融改革的伟大出发</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/fx/200812/15/t20081215_17676249.shtml">1984</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/fx/200812/15/t20081215_17676249.shtml"> 9月15日，国务院批转了经贸部《关于外贸体制改革意见的报告》，报告内容包括"实行外贸代理制"、"改革外贸计划体制"和"改革外贸财务体制"等。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date "><a href="http://www.ce.cn/cysc/ztpd/08/gg/1985/zcbj/200811/24/t20081124_17480490.shtml">1985</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.ce.cn/cysc/ztpd/08/gg/1985/zcbj/200811/24/t20081124_17480490.shtml"> 中共中央、国务院印发《关于进一步活跃农村经济的十项政策》，决定改革农产品统购派购制度，从1985年起实行合同定购和市场收购。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date "><a href="http://views.ce.cn/fun/corpus/ce/fx/200812/25/t20081225_17789234.shtml">1986</a> </div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/fx/200812/25/t20081225_17789234.shtml"> 中国经济实力持续增强，对外贸易不断扩大，改革开放一步步走向深入，社会主义市场经济体制也逐步建立和完善。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://views.ce.cn/fun/corpus/ce/fx/200812/29/t20081229_17823822.shtml">1987</a> </div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/fx/200812/29/t20081229_17823822.shtml">10月，党的十三大正式确定了分“三步走”实现现代化的战略部署</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://views.ce.cn/subject/gg/1988/dsj/200812/31/t20081231_17849054.shtml">1988</a> </div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/1988/dsj/200812/31/t20081231_17849054.shtml">经济体制改革有较大进展。经济增长速度较高又较为正常健康，效益比较好，企业活力明显增强，宏观控制有新的进步，经济生活中长期存在的某些不稳定因素正在趋于缓解。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://views.ce.cn/subject/gg/200811/25/t20081125_17493087.shtml">1989</a> </div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/200811/25/t20081125_17493087.shtml">经济生活中明显的通货膨胀、物价上涨幅度过大，党政机关和社会上的某些消极腐败现象也使人触目惊心。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://finance.ce.cn/sub/stockage/time/200812/17/t20081217_14015014.shtml">1990</a> </div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://finance.ce.cn/sub/stockage/time/200812/17/t20081217_14015014.shtml">1990年12月1日《上海市证券交易管理办法》施行,这是新中国第一部较完整的有关证券交易的地方政府规章，它的颁布使证券市场朝着规范化方向发展，同时也为中国股市的健康发展指明了方向。</a></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="time">
+                <h3 id="3">1991-2000</h3>
+                <div class="timeline-small">
+                    <div class="timeline-small-body">
+                        <ul>
+                            <li>
+                                <div class="date"><a href="http://finance.ce.cn/sub/stockage/time/200812/17/t20081217_14014920.shtml">1991</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc active">
+                                    <span> 
+                                        
+                                        <a href="http://finance.ce.cn/sub/stockage/time/200812/17/t20081217_14014920.shtml">1991年8月28日中国证券业协会成立。总部设在北京。中国证券业协会的会员分为团体会员和个人会员，团体会员为证券公司。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/abl/200901/13/t20090113_17948996.shtml">1992</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/abl/200901/13/t20090113_17948996.shtml">江泽民同志在中央党校的讲话中提出了“建立社会主义市场经济体制”的概念，并很快在全党形成了共识。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/abl/200901/15/t20090115_17973608.shtml">1993</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/abl/200901/15/t20090115_17973608.shtml">中国人民开始以极大的热情投入到建立社会主义市场经济体制这场史无前例的实践当中。1993年，经济发展速度明显加快，仅上半年的工业总产值就比上年同期增长25％。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/cy/200901/17/t20090117_17990586.shtml">1994</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/cy/200901/17/t20090117_17990586.shtml">中共中央在北京召开了全国宣传思想工作会议。这次全国宣传思想工作会议，是在我国建立社会主义市场经济体制和现代化建设的关键时期，党中央召开的具有全局意义的重要会议</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/abl/200901/19/t20090119_18004850.shtml">1995</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/abl/200901/19/t20090119_18004850.shtml">党的十四届五中全会在北京举行。全会审议并通过了《中共中央关于制定国民经济和社会发展“九五”计划和2010年远景目标的建议》，建议提出了“九五”时期国民经济和社会发展的奋斗目标。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/subject/gg/1996/dsj/200901/21/t20090121_18027576.shtml">1996</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/1996/dsj/200901/21/t20090121_18027576.shtml">研究实现“九五”期间农业和经济发展的基本思路，重点部署1996年的农业和农村工作。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/yyhw/200901/23/t20090123_18048714.shtml">1997</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/yyhw/200901/23/t20090123_18048714.shtml">高举邓小平理论伟大旗帜，把建设有中国特色社会主义事业全面推向21世纪</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://views.ce.cn/fun/corpus/ce/smtc/200901/31/t20090131_18075988.shtml">1998</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/smtc/200901/31/t20090131_18075988.shtml">中国真正进入了商品房时代，住房也成就了众多房地产商的财富神话。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://views.ce.cn/subject/gg/1999/dsj/200902/02/t20090202_18096700.shtml">1999</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://views.ce.cn/subject/gg/1999/dsj/200902/02/t20090202_18096700.shtml">防范和化解金融风险，已成为当前经济生活中的突出问题。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3339813.shtml">2000</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3339813.shtml">经济增长加快，综合实力增强，实现了发展和改革的各项预期目标，全面完成了“九五”计划的主要任务。</a></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="time">
+                <h3 id="4">2001-2010</h3>
+                <div class="timeline-small">
+                    <div class="timeline-small-body">
+                        <ul>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/abl/200902/07/t20090207_18139929.shtml">2001</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc active">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/abl/200902/07/t20090207_18139929.shtml">互联网时代到来，推进经济全球化。经济全球化趋势使生产力的发展突破了地区、民族、国家的森严壁垒，深刻地改变着人类的生活方式和生存状态。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3339980.shtml">2002</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3339980.shtml">国民经济持续较快增长。全年国内生产总值跃上10万亿元的新台阶</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3340045.shtml">2003</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3340045.shtml">在非典疫情、多种自然灾害和复杂多变的国际形势下依旧实现了经济和社会发展的主要预期的目标，经济活力进一步增强。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3340076.shtml">2004</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.ce.cn/ztpd/tszt/hgjj/2005/GDPpian/lntjgb/200503/16/t20050316_3340076.shtml">经济运行中的不稳定不健康因素得到抑制，农业、基础设施建设和社会事业等方面的薄弱环节得到加强，粮食生产出现重要转机，部分行业投资增长过快的势头得到初步遏制，各项改革稳步推进，对外开放进一步扩大。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://views.ce.cn/fun/corpus/ce/fx/200902/14/t20090214_18207567.shtml">2005</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://views.ce.cn/fun/corpus/ce/fx/200902/14/t20090214_18207567.shtml">中国人民银行宣布我国开始实行以市场供求为基础、参考一篮子货币进行调节、有管理的浮动汇率制度，并让人民币对美元升值2％。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.ce.cn/xwzx/gnsz/szyw/201201/30/t20120130_23027711.shtml">2006</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span> 
+                                        <a href="http://www.ce.cn/xwzx/gnsz/szyw/201201/30/t20120130_23027711.shtml">党的十六届五中全会通过的《中共中央关于制定国民经济和社会发展第十一个五年规划的建议》，明确了今后5年我国经济社会发展的奋斗目标和行动纲领，提出了建设社会主义新农村的重大历史任务，为做好当前和今后一个时期的“三农”工作指明了方向。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://www.ce.cn/cysc/ztpd/08/gg/2007/jjsj/200812/15/t20081215_17675397.shtml">2007</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.ce.cn/cysc/ztpd/08/gg/2007/jjsj/200812/15/t20081215_17675397.shtml">2007年上证综指连破3000、4000、5000、6000点四道大关，一度创下6124点的历史高点，在指数节节攀升之中，中国人的金融意识开始觉醒。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://www.ce.cn/cysc/ztpd/08/dashiji/jingji/200812/17/t20081217_17701915.shtml">2008</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.ce.cn/cysc/ztpd/08/dashiji/jingji/200812/17/t20081217_17701915.shtml">下半年爆发的金融海啸，不仅席卷了美国，还且波及全球。在危机冲击下，发达经济体身陷衰退，世界经济举步维艰，国际金融格局正在发生变化。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://www.p5w.net/news/gncj/201001/t2790673.htm">2009</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.p5w.net/news/gncj/201001/t2790673.htm">全面实施并不断完善应对国际金融危机的一揽子计划，较快扭转了经济增速明显下滑的局面，实现了国民经济总体回升向好。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://www.gov.cn/jrzg/2010-01/03/content_1502163.htm">2010</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.gov.cn/jrzg/2010-01/03/content_1502163.htm">充满希望的一年——国内经济企稳回升，全球环境有所好转，中国经济蕴涵着不断增强的上行力量</a></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="time">
+                <h3 id="5">2011-2020</h3>
+                <div class="timeline-small">
+                    <div class="timeline-small-body">
+                        <ul>
+                            <li>
+                                <div class="date"><a href="http://www.xinhuanet.com/fortune/2011cjnzbd/10.htmhttp://www.xinhuanet.com/fortune/2011cjnzbd/10.htm">2011</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc active">
+                                    <span>
+                                        <a href="http://www.xinhuanet.com/fortune/2011cjnzbd/10.htm">我国全年财政收入首次突破十万亿</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.xinhuanet.com/fortune/cjzthgjj/21.htm">2012</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.xinhuanet.com/fortune/cjzthgjj/21.htm">2012年制造业经济总体增速放缓，PMI季节性回落</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.stats.gov.cn/tjsj/zxfb/201402/t20140224_514970.html">2013</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.stats.gov.cn/tjsj/zxfb/201402/t20140224_514970.html">坚持稳中求进，统筹稳增长、调结构、促改革，探索创新宏观调控方式，经济社会发展稳中有进、稳中向好，实现了良好开局。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.stats.gov.cn/tjsj/zxfb/201502/t20150226_685799.html">2014</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.stats.gov.cn/tjsj/zxfb/201502/t20150226_685799.html">国民经济在新常态下平稳运行，结构调整出现积极变化，发展质量不断提高，民生事业持续改善，实现了经济社会持续稳定发展。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.stats.gov.cn/tjsj/zxfb/201602/t20160229_1323991.html">2015</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.stats.gov.cn/tjsj/zxfb/201602/t20160229_1323991.html">推动大众创业万众创新，努力促进经济保持中高速增长、迈向中高端水平，转型升级步伐加快，改革开放不断深化，民生事业持续进步，经济社会发展迈上新台阶，实现了“十二五”圆满收官，为“十三五”经济社会发展、决胜全面建成小康社会奠定了坚实基础。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.stats.gov.cn/tjsj/zxfb/201702/t20170228_1467424.html">2016</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.stats.gov.cn/tjsj/zxfb/201702/t20170228_1467424.html">推进“五位一体”总体布局和协调推进“四个全面”战略布局，经济社会保持平稳健康发展，实现了“十三五”良好开局。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="http://www.stats.gov.cn/tjsj/zxfb/201802/t20180228_1585631.html">2017</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="http://www.stats.gov.cn/tjsj/zxfb/201802/t20180228_1585631.html">贯彻新发展理念，坚持以提高发展质量和效益为中心，以供给侧结构性改革为主线，统筹推进稳增长、促改革、调结构、惠民生、防风险各项工作，经济运行稳中有进、稳中向好、好于预期，经济社会保持平稳健康发展。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date"><a href="https://baijiahao.baidu.com/s?id=1626727570494504097&wfr=spider&for=pc">2018</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc">
+                                    <span>
+                                        <a href="https://baijiahao.baidu.com/s?id=1626727570494504097&wfr=spider&for=pc">经济运行总体平稳、稳中有进，质量效益稳步提升，人民生活持续改善，保持了经济持续健康发展和社会大局稳定，朝着实现全面建成小康社会的目标迈出了新的步伐。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="http://www.gov.cn/xinwen/2020-01/17/content_5470097.htm">2019</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="http://www.gov.cn/xinwen/2020-01/17/content_5470097.htm">三大攻坚战取得关键进展，国民经济运行总体平稳，发展质量稳步提升，主要预期目标较好实现，为全面建成小康社会奠定了坚实基础。</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date animate__backInLeft"><a href="国民经济稳定恢复 主要目标完成好于预期">2020</a></div>
+                                <div class="bullet blue"></div>
+                                <div class="desc animate__backInRight">
+                                    <span>
+                                        <a href="国民经济稳定恢复 主要目标完成好于预期">国民经济稳定恢复 主要目标完成好于预期</a></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script> -->
+    <script src="js/steps.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
